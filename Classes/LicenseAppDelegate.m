@@ -29,9 +29,12 @@
 	[viewController viewWillAppear:YES];
     [window makeKeyAndVisible];
     
+    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    scroll.contentSize = CGSizeMake(320, 700);
+    
     NSArray *states;
     
-    states = [NSArray arrayWithObjects: @"New Jersey", @"Florida", nil];
+    states = [NSArray arrayWithObjects: @"New Jersey", @"Florida", @"Kentucky", @"Arizona", nil];
 
     int y = 0;
     
@@ -42,16 +45,20 @@
         
         UIImage *licenseImage = [UIImage imageNamed:([trimmedState stringByAppendingString:@".jpg"])]	;
         
-        UIButton *licenseButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        licenseButton.frame = CGRectMake(0.0, 20.0 + y, 320.0, 160.0);
-        [licenseButton setBackgroundImage:licenseImage forState:UIControlStateNormal];
+//        UIButton *licenseButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//        licenseButton.frame = CGRectMake(0.0, 20.0 + y, 320.0, 160.0);
         
-        [viewController.view addSubview:licenseButton];
+        UIImageView *licenseView = [[UIImageView alloc] initWithImage:licenseImage];
+        licenseView.frame = CGRectMake(0.0, 20.0 + y, 320.0, 160.0);
+        
+//        [licenseButton setBackgroundImage:licenseImage forState:UIControlStateNormal];
+        
+        [scroll addSubview:licenseView];
     
         y = y + 160;
     }
 
-    
+    [viewController.view addSubview:scroll];
     
     return YES;
 }

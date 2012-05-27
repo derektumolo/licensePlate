@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0AF532471572D01000076C86 /* newjersey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF532461572D01000076C86 /* newjersey.jpg */; };
 		0AF5325F1572D2C800076C86 /* florida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF5325E1572D2C800076C86 /* florida.jpg */; };
+		0AF532CA1572E21A00076C86 /* arizona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF532C81572E21A00076C86 /* arizona.jpg */; };
+		0AF532CB1572E21A00076C86 /* kentucky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF532C91572E21A00076C86 /* kentucky.jpg */; };
 		1D3623260D0F684500981E51 /* LicenseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LicenseAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		0AF532461572D01000076C86 /* newjersey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newjersey.jpg; path = Classes/newjersey.jpg; sourceTree = "<group>"; };
 		0AF5325E1572D2C800076C86 /* florida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = florida.jpg; sourceTree = "<group>"; };
+		0AF532C81572E21A00076C86 /* arizona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = arizona.jpg; path = Classes/arizona.jpg; sourceTree = "<group>"; };
+		0AF532C91572E21A00076C86 /* kentucky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kentucky.jpg; path = Classes/kentucky.jpg; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* LicenseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicenseAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* LicenseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseAppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0AF532C81572E21A00076C86 /* arizona.jpg */,
+				0AF532C91572E21A00076C86 /* kentucky.jpg */,
 				0AF5325E1572D2C800076C86 /* florida.jpg */,
 				0AF532461572D01000076C86 /* newjersey.jpg */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -157,6 +163,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				0AF532471572D01000076C86 /* newjersey.jpg in Resources */,
 				0AF5325F1572D2C800076C86 /* florida.jpg in Resources */,
+				0AF532CA1572E21A00076C86 /* arizona.jpg in Resources */,
+				0AF532CB1572E21A00076C86 /* kentucky.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
